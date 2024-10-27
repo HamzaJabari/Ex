@@ -18,7 +18,7 @@ public class Array : MonoBehaviour
             count++;
         }
 
-        Debug.Log("Funny Sentence: " + sentence.Trim());
+        Debug.Log("Funny Sentence: " + sentence);
 
 
     }
