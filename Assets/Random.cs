@@ -10,7 +10,7 @@ public class Random : MonoBehaviour
         while (true)
         {
             int num = UnityEngine.Random.Range(0, 21);
-            Debug.Log(num);
+
             if (num == 5)
             {
                 continue;
@@ -19,6 +19,7 @@ public class Random : MonoBehaviour
             {
                 break;
             }
+            Debug.Log(num);
         }
 
     }
